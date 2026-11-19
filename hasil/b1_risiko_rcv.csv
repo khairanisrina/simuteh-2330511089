@@ -1,0 +1,7 @@
+Aspek,Risiko pada SIMUTEH,Mitigasi awal
+Privasi citra,Foto memuat wajah petugas atau metadata EXIF berisi lokasi GPS kebun,Foto hanya bidang nampan; hapus EXIF otomatis sebelum disimpan; izin pemilik kebun
+Bias dan keadilan,"Data latih didominasi satu varietas, satu kebun, atau cahaya normal sehingga daun dari kebun lain lebih sering salah dinilai",Rencana akuisisi mewakili 5 kondisi cahaya dan beberapa kebun; evaluasi kinerja per kondisi dan per sumber
+Transparansi,Petani tidak tahu dasar sistem menilai daun berbercak berat,Tampilkan mask bercak dan persen bercak di samping kelas mutu; jelaskan keterbatasan
+Keamanan data,Repository atau penyimpanan cloud terbuka untuk umum,Repository privat; akses hanya anggota tim; foto mentah tidak diunggah
+Dampak sosial,Daun sehat dinilai berbercak sehingga harga jual petani turun; keputusan sepenuhnya diserahkan ke mesin,SIMUTEH hanya alat bantu; keputusan akhir di tangan petugas; ambang kelas dikonsultasikan dengan kelompok tani
+Keterlacakan,Hasil tidak dapat diulang karena parameter praproses tidak dicatat,"SEED, versi pustaka (requirements.txt), dan param_praproses.json disimpan di repository"

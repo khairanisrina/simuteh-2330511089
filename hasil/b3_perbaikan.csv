@@ -1,0 +1,10 @@
+Metode,Parameter,KB,Simpangan baku,Pengamatan visual
+asli,-,2.19,55.9,"sisi kanan teduh, bercak di sisi teduh samar"
+negatif,s = 255 - r,2.19,55.9,hanya membalik; KB tetap
+cerah+50,b = 50,2.19,54.4,semua naik; area terang terpotong di 255
+kontras,"a = 1,5; b = -40",2.19,79.2,kontras global naik; sisi terang jenuh
+regang,persentil 2-98,2.28,80.6,rentang penuh dipakai; sisi teduh tetap gelap
+gamma0.5,"gamma = 0,5",1.84,40.7,sisi teduh lebih cerah tetapi daun ikut pucat
+gamma1.8,"gamma = 1,8",2.9,59.4,daun lebih gelap sehingga bercak terang lebih menonjol
+ekualisasi,global,1.57,73.4,beda sisi terang-teduh justru diperkuat
+CLAHE,clip 2; tile 8,2.25,47.0,kecerahan lokal lebih rata; bercak sisi teduh lebih jelas

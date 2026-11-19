@@ -1,0 +1,13 @@
+citra,operasi,komponen,piksel,IoU
+teh_021.png,awal,191,2729,0.187
+teh_021.png,erosi,14,317,0.564
+teh_021.png,dilasi,13,9471,0.054
+teh_021.png,opening,14,771,0.649
+teh_021.png,closing,155,2983,0.171
+teh_021.png,open+close,14,771,0.649
+teh_011.png,awal,124,2424,-
+teh_011.png,erosi,15,26,-
+teh_011.png,dilasi,3,8872,-
+teh_011.png,opening,15,310,-
+teh_011.png,closing,105,2545,-
+teh_011.png,open+close,10,327,-
